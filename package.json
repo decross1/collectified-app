@@ -1,22 +1,45 @@
 {
   "name": "collectified",
   "version": "1.0.0",
-  "description": "A full stack application where users can store and share their collecitons",
+  "description": "\"Collection Storage and Management App, for showing collections and finding new items'",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon server/server.js",
+    "react-dev": "webpack -d --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decross1/collectified-app.git"
+  },
   "keywords": [
-    "collection",
-    "disney",
-    "pins"
+    "collector",
+    "pokemon",
+    "cards",
+    "stamps",
+    "node",
+    "react"
   ],
   "author": "Derrick Cross",
   "license": "ISC",
-  "dependencies": {
-    "react": "^16.2.0"
+  "bugs": {
+    "url": "https://github.com/decross1/collectified-app/issues"
   },
-  "devDependencies": {
+  "homepage": "https://github.com/decross1/collectified-app#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "file-loader": "^1.1.6",
+    "nodemon": "^1.14.11",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.77.2",
+    "style-loader": "^0.19.1",
+    "url-loader": "^0.6.2",
     "webpack": "^3.10.0"
   }
 }

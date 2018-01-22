@@ -1,1 +1,0 @@
-# collectified app
