@@ -84,7 +84,7 @@ class App extends React.Component {
             <Container text>
               <Header
                 as='h1'
-                content='Welcome to Tenju!'
+                content='Welcome to Tenji!'
                 inverted
                 style={{ fontSize: '4em', fontWeight: 'normal', marginBottom: 0, marginTop: '3em' }}
               />
